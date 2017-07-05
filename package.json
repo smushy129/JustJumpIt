@@ -1,0 +1,7 @@
+{
+  "name": "JustJumpIt",
+  "version": "1.0.0",
+  "scripts": {
+    "webpack": "webpack"
+  }
+}
