@@ -15,7 +15,7 @@ JustJumpIt is an addictive platformer. The goal of the game is to obtain the hig
 
 ## Wireframes
 
-
+![wireframe](../docs/images/wireframe.png)
 
 ## Implementation Timeline
 
