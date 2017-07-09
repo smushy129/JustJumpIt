@@ -1,11 +1,11 @@
-# JustJumpIt
+# Just Jump It
 
 [live]
 
 ## MVP
 JustJumpIt is a clone of [doodle jump](http://doodlejump.org/). It is built with JavaScript and HTML5 canvas.
 
-JustJumpIt is an addictive platformer. The goal of the game is to obtain the highest numerical score that is constantly updated in the middle of the screen. The player has to navigate their character so that it jumps and lands on a higher platform, resulting in a higher score.
+JustJumpIt is an addictive platformer. The goal of the game is to get the highest numerical score before losing. There is no end to the number of platforms, so the game can potentially go on forever! The player has to navigate their character so that it jumps and lands on a higher platform, resulting in a higher score.
 
 - Platforms
 - Character
