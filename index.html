@@ -5,9 +5,41 @@
     <title>Just Jump It</title>
     <script type="application/javascript" src="lib/bundle.js"></script>
     <style>
-      canvas {
-        margin-top: 10%;
+      h1 {
+        color: white;
+        font-size: 72px;
+        margin: 10px;
+      }
+
+      .header-game {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #canvas {
         border: 15px solid black;
+      }
+
+      #score {
+        font-size: 32px;
+        width: 300px;
+        height: 300px;
+      }
+
+      #scoring{
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        color: white;
+      }
+
+      html {
+        background-color: black;
       }
 
       body {
@@ -15,13 +47,23 @@
         margin: auto;
         display: flex;
         justify-content: center;
+        align-items: center;
+        font-family: "Futura-CondensedExtraBold", sans-serif;
       }
     </style>
   </head>
 
   <body>
-    <canvas id="canvas"></canvas>
 
+    <div class="header-game">
+      <h1>JUST JUMP IT</h1>
+      <canvas id="canvas"></canvas>
+    </div>
+
+    <div id='scoring'>
+      <div>SCORE</div>
+      <canvas id="score"></canvas>
+    </div>
 
   </body>
 </html>
