@@ -7,7 +7,7 @@
     <style>
       h1 {
         color: white;
-        font-size: 72px;
+        font-size: 69px;
         margin: 10px;
       }
 
@@ -16,32 +16,41 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-bottom: 30px;
       }
 
       #canvas {
-        border: 15px solid yellow;
+        border: 15px solid orange;
       }
 
       #score {
         font-size: 32px;
+        height: 150px;
         width: 300px;
-        height: 300px;
+        object-fit: fill;
       }
 
       #scoring{
         margin-top: 10%;
+        margin-left: 3%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-start;
         font-size: 50px;
         color: white;
+
       }
 
       .controls {
         font-size: 18px;
-        color: white;
-        margin-top: 20px;
+        color: yellow;
+      }
+
+      .controls h3 {
+        margin: 0;
+        font-size: 32px;
+        text-decoration: underline;
       }
 
       html {
@@ -64,12 +73,15 @@
     <div class="header-game">
       <h1>JUST JUMP IT</h1>
       <canvas id="canvas"></canvas>
-      <div class="controls">Controls: Mouse left and right</div>
     </div>
 
     <div id='scoring'>
       <div>SCORE</div>
       <canvas id="score"></canvas>
+      <div class="controls">
+        <h3>Controls</h3>
+        <p>Mouse left and right</p>
+      </div>
     </div>
 
   </body>
