@@ -4,71 +4,24 @@
     <meta charset="utf-8">
     <title>Just Jump It</title>
     <script type="application/javascript" src="lib/bundle.js"></script>
-    <style>
-      h1 {
-        color: white;
-        font-size: 69px;
-        margin: 10px;
-      }
-
-      .header-game {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 30px;
-      }
-
-      #canvas {
-        border: 15px solid orange;
-      }
-
-      #score {
-        font-size: 32px;
-        height: 150px;
-        width: 300px;
-        object-fit: fill;
-      }
-
-      #scoring{
-        margin-top: 10%;
-        margin-left: 3%;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        font-size: 50px;
-        color: white;
-
-      }
-
-      .controls {
-        font-size: 18px;
-        color: yellow;
-      }
-
-      .controls h3 {
-        margin: 0;
-        font-size: 32px;
-        text-decoration: underline;
-      }
-
-      html {
-        background-color: black;
-      }
-
-      body {
-        width: 900px;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: "Futura-CondensedExtraBold", sans-serif;
-      }
-    </style>
+    <script src="https://use.fontawesome.com/91caccef45.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/style.css"></link>
   </head>
 
   <body>
+
+    <div class="high-scores">
+      <h3 class="high-score-header">Top Jumpers</h3>
+      <ol></ol>
+
+      <form id='score-form'>
+        <div>Submit Your Score</div>
+        <input class="username-input" placeholder="Username"></input>
+        <button type="submit">Submit</button>
+      </form>
+
+    </div>
 
     <div class="header-game">
       <h1>JUST JUMP IT</h1>
@@ -80,9 +33,28 @@
       <canvas id="score"></canvas>
       <div class="controls">
         <h3>Controls</h3>
-        <p>Mouse left and right</p>
+        <p class='arrow'>
+          <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
+          &nbsp;
+          <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+        </p>
+        <p>Left &nbsp; &nbsp; Right</p>
       </div>
     </div>
 
+    <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+      <script>
+
+      var config = {
+        apiKey: "AIzaSyCZSvg6cO1gRRmkyEzdXI00_mRc-BlV5Mw",
+        authDomain: "justjumpit-fbe7a.firebaseapp.com",
+        databaseURL: "https://justjumpit-fbe7a.firebaseio.com",
+        projectId: "justjumpit-fbe7a",
+        storageBucket: "",
+        messagingSenderId: "474031451863"
+      };
+      firebase.initializeApp(config);
+    </script>
   </body>
+
 </html>

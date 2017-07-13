@@ -1,0 +1,112 @@
+html {
+  background-color: black;
+}
+
+body {
+  width: 1050px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Futura-CondensedExtraBold", sans-serif;
+}
+
+
+h1 {
+  color: white;
+  font-size: 60px;
+  margin: 10px;
+}
+
+h3, p {
+  margin: 0;
+}
+
+button {
+  width: 30%;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: orange;
+  color: black;
+  border: none;
+  font-family: "Futura-CondensedExtraBold", sans-serif;
+}
+
+button:focus {
+  outline: none;
+}
+
+.header-game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+#canvas {
+  border: 15px solid orange;
+}
+
+#score {
+  height: 150px;
+  width: 300px;
+}
+
+#scoring{
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 50px;
+  color: white;
+  width: auto;
+}
+
+.high-scores {
+  color: orange;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 18px;
+}
+
+#score-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  color: white;
+  height: 100px;
+}
+
+#score-form input {
+  padding: 8px;
+  text-align: center;
+  font-family: "Futura-CondensedExtraBold", sans-serif;
+}
+
+.controls {
+  font-size: 18px;
+  color: orange;
+  text-align: center;
+}
+
+.high-score-header {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+.controls h3 {
+  margin: 0;
+  font-size: 32px;
+  color: white;
+}
+
+.arrow {
+  font-size: 32px;
+}
