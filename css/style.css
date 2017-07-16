@@ -59,7 +59,9 @@ button:hover {
 }
 
 #canvas {
-  border: 15px solid orange;
+  border: 15px solid black;
+  background-image: url(../images/canvasbg.jpg);
+  background-size: 100%;
 }
 
 #score {
