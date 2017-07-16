@@ -58,6 +58,7 @@ button:hover {
   border: 15px solid black;
   background-image: url(../images/canvasbg.jpg);
   background-size: 100%;
+  border-radius: 8px;
 }
 
 #score {
