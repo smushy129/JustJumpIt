@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
     <meta charset="utf-8">
     <title>Just Jump It</title>
     <script type="application/javascript" src="lib/bundle.js"></script>
@@ -12,11 +13,15 @@
   <body>
 
     <div class="high-scores">
-      <h3 class="high-score-header">Top Jumpers</h3>
+      <div>
+        <img src='images/topjumpers.png'></img>
+      </div>
       <ol></ol>
 
       <form id='score-form'>
-        <div>Submit Your Score</div>
+        <div>
+          <img src='images/submitscore.png'></img>
+        </div>
         <input class="username-input" placeholder="Initial eg. MLK" maxlength="3"></input>
         <button type="submit">Submit</button>
       </form>
@@ -24,15 +29,21 @@
     </div>
 
     <div class="header-game">
-      <h1>JUST JUMP IT</h1>
+      <div>
+        <img src='images/logo.png' class='logo'></img>
+      </div>
       <canvas id="canvas"></canvas>
     </div>
 
     <div id='scoring' class='scoring'>
-      <div>SCORE</div>
+      <div>
+        <img src='images/score.png'></img>
+      </div>
       <canvas id="score"></canvas>
       <div class="controls">
-        <h3>Controls</h3>
+        <div>
+          <img src='images/controls.png'></img>
+        </div>
         <p class='arrow'>
           <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
           &nbsp;

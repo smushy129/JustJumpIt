@@ -1,11 +1,11 @@
 @font-face {
   font-family: pokemon;
   src: url(pokemonfont.ttf);
-
 }
 
-html {
-
+img {
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -19,15 +19,6 @@ body {
   background-size: 100%;
 }
 
-
-h1 {
-  color: #E7D800;
-  font-size: 50px;
-  margin: 10px;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: blue;
-}
-
 h3, p {
   margin: 0;
 }
@@ -36,10 +27,11 @@ button {
   width: 30%;
   padding: 8px;
   border-radius: 8px;
-  background-color: orange;
-  color: black;
+  background: transparent;
+  color: red;
   border: none;
   font-family: pokemon;
+  font-size: 20px;
 }
 
 button:focus {
@@ -70,7 +62,6 @@ button:hover {
 }
 
 .scoring{
-  margin-left: 20px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -83,7 +74,6 @@ button:hover {
 
 .high-scores {
   color: #f5f5dc;
-  margin-right: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -104,31 +94,20 @@ button:hover {
   align-items: center;
   width: 100%;
   color: #E7D800;
-  height: 100px;
+  height: 150px;
 }
 
 #score-form input {
   padding: 8px;
   text-align: center;
   font-family: "Futura-CondensedExtraBold", sans-serif;
+  border-radius: 8px;
 }
 
 .controls {
   font-size: 18px;
   color: #f5f5dc;
   text-align: center;
-}
-
-.high-score-header {
-  text-align: center;
-  font-size: 40px;
-  color: #E7D800;
-}
-
-.controls h3 {
-  margin: 0;
-  font-size: 32px;
-  color: #E7D800;
 }
 
 .arrow {
