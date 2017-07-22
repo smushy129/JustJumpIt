@@ -15,4 +15,4 @@ JustJumpIt is an addictive platformer where the player tries get the highest sco
 - Collect items to further increase your score
 - Try to avoid flying Pokeballs
 
-![gameimage](https://github.com/kingsleyliao/JustJumpIt/blob/master/images/gameplay.png)
+![gameimage](https://github.com/kingsleyliao/JustJumpIt/blob/master/images/gameplay3.png)
