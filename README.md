@@ -1,7 +1,7 @@
 # Just Jump It
 [Play the game](https://kingsleyliao.github.io/JustJumpIt/)
 
-![gameimage](https://github.com/kingsleyliao/JustJumpIt/blob/master/images/gameplay.png)
+![gameimage](https://github.com/kingsleyliao/JustJumpIt/blob/master/images/startscreen.png)
 
 ## Background
 Just Jump It is a game inspired by the popular game Doodle Jump [doodle jump](http://doodlejump.org/). It is built with vanilla JavaScript, HTML5 Canvas, and Firebase for high score information.
@@ -15,4 +15,4 @@ JustJumpIt is an addictive platformer where the player tries get the highest sco
 - Collect items to further increase your score
 - Try to avoid flying Pokeballs
 
-![gameimage](https://github.com/kingsleyliao/JustJumpIt/blob/master/images/gameplay2.png)
+![gameimage](https://github.com/kingsleyliao/JustJumpIt/blob/master/images/gameplay.png)
