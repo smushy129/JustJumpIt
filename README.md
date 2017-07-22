@@ -1,41 +1,18 @@
 # Just Jump It
-[live](https://kingsleyliao.github.io/JustJumpIt/)
+[Play the game](https://kingsleyliao.github.io/JustJumpIt/)
 
-Just Jump It is a clone of [doodle jump](http://doodlejump.org/)
+[gameimage](https://github.com/kingsleyliao/JustJumpIt/blob/master/images/gameplay1.png)
 
-JustJumpIt is an addictive platformer. The goal of the game is to get the highest numerical score. There is no end to the number of platforms, so the game can potentially go on forever! The player has to navigate their character so that it jumps and lands on a higher platform, resulting in a higher score.
+## Background
+Just Jump It is a game inspired by the popular game Doodle Jump [doodle jump](http://doodlejump.org/). It is built with vanilla JavaScript, HTML5 Canvas, and Firebase for high score information.
 
-## MVP
+JustJumpIt is an addictive platformer where the player tries get the highest score. There is no end to the number of platforms, so the game can potentially go on forever. The player has to navigate their Hitmonlee around obstacles and avoid falling, so that Hitmonlee jumps and lands on a higher platform.
 
-- Character that jumps when it makes contact with a platform
-- Platforms that allows the player to jump
-- Score is kept as the player jumps higher and higher
-- Game state logic to keep track of when the game is over (when the player falls to the bottom)
+## Game Instructions
+- Use the left and right arrow keys to control Hitmonlee
+- Hitmonlee will perform a normal jump when landing on brown platforms
+- Hitmonlee will perform a super jump when landing on green platforms
+- Collect items to further increase your score
+- Try to avoid flying Pokeballs
 
-## Wireframes
-
-![wireframe](https://github.com/kingsleyliao/JustJumpIt/blob/master/images/wireframe.png)
-
-## Technologies
-
-Just Jump It is built on:
-- JavaScript
-- HTML5 Canvas
-- CSS
-
-## Implementation Timeline
-
-### Day 1: Implement Character
-  - Character Sprite
-  - Sprite Physics
-
-### Day 2: Implement Platforms & Scoring
-  - Platform Physics & Sprite
-  - Implement score counter
-
-### Day 3: Game State Logic
-  - Implement Game Start and Game Over Screen
-
-### Bonuses  
-  - Implement special platforms
-  - Implement power ups
+[gameimage](https://github.com/kingsleyliao/JustJumpIt/blob/master/images/gameplay2.png)
